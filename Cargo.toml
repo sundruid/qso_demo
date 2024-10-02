@@ -1,0 +1,16 @@
+[package]
+name = "q_encryption"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+oqs = { version = "0.9.0", default-features = false, features = ["kems", "sigs"] }
+serde = "1.0"
+serde_json = "1.0"
+hex = "0.4.3"
+aes = "0.8.4"
+block-padding = "0.3.3"
+rand = "0.8.5"
+cbc = "0.1.2"
+
+
